@@ -82,4 +82,3 @@ public class Sprite {
         return a.getImage();
     }
 }
-

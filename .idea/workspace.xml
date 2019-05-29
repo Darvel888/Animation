@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Animation:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="eecf20f1-c84e-4fea-a423-caef912fc328" name="Default Changelist" comment="" />
+    <list default="true" id="4c3f9278-ec91-4e8c-840a-b4cfc64a44af" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -9,12 +14,30 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/Animation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1088">
+              <caret line="67" column="1" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1136#1137#0" expanded="true" />
+                <element signature="e#1182#1183#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1615">
+            <state relative-caret-position="811">
               <caret line="95" column="1" selection-start-line="95" selection-start-column="1" selection-end-line="95" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -24,10 +47,88 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Animation.iml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="uml://JAVA/org">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>org</OriginalElement>
+              <nodes>
+                <node x="2.0" y="442.0">org.Sprite</node>
+                <node x="5.178571428571416" y="143.0">org.Animation</node>
+                <node x="17.178571428571416" y="-6.0">org.Animation.Onescene</node>
+                <node x="170.0" y="433.0">org.ScreenManager</node>
+                <node x="75.92857142857142" y="837.0">org.Main</node>
+                <node x="565.0" y="0.0">org.codehaus</node>
+                <node x="750.0" y="0.0">org.apache</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="org.Main" target="org.Sprite">
+                  <point x="-68.75" y="-135.0" />
+                  <point x="89.67857142857142" y="812.0" />
+                  <point x="35.0" y="812.0" />
+                  <point x="-35.0" y="169.0" />
+                </edge>
+                <edge source="org.Main" target="org.ScreenManager">
+                  <point x="68.75" y="-135.0" />
+                  <point x="227.17857142857142" y="812.0" />
+                  <point x="433.0" y="812.0" />
+                  <point x="87.0" y="169.0" />
+                </edge>
+                <edge source="org.Animation.Onescene" target="org.Animation">
+                  <point x="56.33333333333334" y="47.0" />
+                  <point x="157.01190476190476" y="119.0" />
+                  <point x="164.34523809523807" y="119.0" />
+                  <point x="63.66666666666666" y="-125.0" />
+                </edge>
+                <edge source="org.Main" target="org.Animation">
+                  <point x="13.75" y="-135.0" />
+                  <point x="172.17857142857142" y="812.0" />
+                  <point x="161.5" y="812.0" />
+                  <point x="161.5" y="419.0" />
+                  <point x="172.30357142857142" y="419.0" />
+                  <point x="71.625" y="125.0" />
+                </edge>
+                <edge source="org.Animation" target="org.Animation.Onescene">
+                  <point x="-63.66666666666666" y="-125.0" />
+                  <point x="37.01190476190476" y="119.0" />
+                  <point x="44.345238095238074" y="119.0" />
+                  <point x="-56.333333333333336" y="47.0" />
+                </edge>
+                <edge source="org.Sprite" target="org.Animation">
+                  <point x="-35.0" y="-169.0" />
+                  <point x="35.0" y="419.0" />
+                  <point x="29.053571428571416" y="419.0" />
+                  <point x="-71.625" y="125.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="139.0" y="533.125" />
+              <SelectedNodes>
+                <node>org.Animation</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Fields</Category>
+                <Category>Constructors</Category>
+                <Category>Methods</Category>
+                <Category>Properties</Category>
+                <Category>Inner Classes</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/Sprite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1428">
-              <caret line="84" selection-start-line="84" selection-end-line="84" />
+            <state relative-caret-position="867">
+              <caret line="83" column="1" selection-start-line="83" selection-start-column="1" selection-end-line="83" selection-end-column="1" />
               <folding>
                 <element signature="e#248#249#0" expanded="true" />
                 <element signature="e#274#275#0" expanded="true" />
@@ -69,7 +170,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/ScreenManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="771">
+            <state relative-caret-position="2210">
               <caret line="139" column="1" selection-start-line="139" selection-start-column="1" selection-end-line="139" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -84,26 +185,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/Animation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="754">
-              <caret line="67" column="1" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1136#1137#0" expanded="true" />
-                <element signature="e#1182#1183#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -111,41 +197,54 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/org/Animation.java" />
         <option value="$PROJECT_DIR$/src/org/Main.java" />
         <option value="$PROJECT_DIR$/src/org/Sprite.java" />
         <option value="$PROJECT_DIR$/src/org/ScreenManager.java" />
-        <option value="$PROJECT_DIR$/src/org/Animation.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="1079" />
-    <option name="y" value="46" />
-    <option name="width" value="783" />
-    <option name="height" value="919" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="294" />
+    <option name="y" value="-13" />
+    <option name="width" value="899" />
+    <option name="height" value="917" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="animation1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="animation1" type="462c0819:PsiDirectoryNode" />
+              <item name="animation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="animation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="animation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="animation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="animation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="animation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -164,7 +263,7 @@
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.Main" />
-      <module name="animation1" />
+      <module name="Animation" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.*" />
@@ -186,49 +285,59 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="eecf20f1-c84e-4fea-a423-caef912fc328" name="Default Changelist" comment="" />
-      <created>1558457614965</created>
+      <changelist id="4c3f9278-ec91-4e8c-840a-b4cfc64a44af" name="Default Changelist" comment="" />
+      <created>1559139444079</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1558457614965</updated>
+      <updated>1559139444079</updated>
+      <workItem from="1559143722182" duration="206000" />
     </task>
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="206000" />
+  </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1359275" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1663113" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32900432" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38726115" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
     </layout>
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/package-info.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/Animation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="754">
+        <state relative-caret-position="1088">
           <caret line="67" column="1" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -238,26 +347,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/ScreenManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="771">
-          <caret line="139" column="1" selection-start-line="139" selection-start-column="1" selection-end-line="139" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#412#413#0" expanded="true" />
-            <element signature="e#455#456#0" expanded="true" />
-            <element signature="e#912#913#0" expanded="true" />
-            <element signature="e#954#955#0" expanded="true" />
-            <element signature="e#2616#2617#0" expanded="true" />
-            <element signature="e#2663#2664#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/Sprite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1428">
-          <caret line="84" selection-start-line="84" selection-end-line="84" />
+        <state relative-caret-position="867">
+          <caret line="83" column="1" selection-start-line="83" selection-start-column="1" selection-end-line="83" selection-end-column="1" />
           <folding>
             <element signature="e#248#249#0" expanded="true" />
             <element signature="e#274#275#0" expanded="true" />
@@ -295,13 +388,103 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/ScreenManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2210">
+          <caret line="139" column="1" selection-start-line="139" selection-start-column="1" selection-end-line="139" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#912#913#0" expanded="true" />
+            <element signature="e#954#955#0" expanded="true" />
+            <element signature="e#2616#2617#0" expanded="true" />
+            <element signature="e#2663#2664#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1615">
+        <state relative-caret-position="811">
           <caret line="95" column="1" selection-start-line="95" selection-start-column="1" selection-end-line="95" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Animation.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="uml://JAVA/org">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>org</OriginalElement>
+          <nodes>
+            <node x="2.0" y="442.0">org.Sprite</node>
+            <node x="5.178571428571416" y="143.0">org.Animation</node>
+            <node x="17.178571428571416" y="-6.0">org.Animation.Onescene</node>
+            <node x="170.0" y="433.0">org.ScreenManager</node>
+            <node x="75.92857142857142" y="837.0">org.Main</node>
+            <node x="565.0" y="0.0">org.codehaus</node>
+            <node x="750.0" y="0.0">org.apache</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="org.Main" target="org.Sprite">
+              <point x="-68.75" y="-135.0" />
+              <point x="89.67857142857142" y="812.0" />
+              <point x="35.0" y="812.0" />
+              <point x="-35.0" y="169.0" />
+            </edge>
+            <edge source="org.Main" target="org.ScreenManager">
+              <point x="68.75" y="-135.0" />
+              <point x="227.17857142857142" y="812.0" />
+              <point x="433.0" y="812.0" />
+              <point x="87.0" y="169.0" />
+            </edge>
+            <edge source="org.Animation.Onescene" target="org.Animation">
+              <point x="56.33333333333334" y="47.0" />
+              <point x="157.01190476190476" y="119.0" />
+              <point x="164.34523809523807" y="119.0" />
+              <point x="63.66666666666666" y="-125.0" />
+            </edge>
+            <edge source="org.Main" target="org.Animation">
+              <point x="13.75" y="-135.0" />
+              <point x="172.17857142857142" y="812.0" />
+              <point x="161.5" y="812.0" />
+              <point x="161.5" y="419.0" />
+              <point x="172.30357142857142" y="419.0" />
+              <point x="71.625" y="125.0" />
+            </edge>
+            <edge source="org.Animation" target="org.Animation.Onescene">
+              <point x="-63.66666666666666" y="-125.0" />
+              <point x="37.01190476190476" y="119.0" />
+              <point x="44.345238095238074" y="119.0" />
+              <point x="-56.333333333333336" y="47.0" />
+            </edge>
+            <edge source="org.Sprite" target="org.Animation">
+              <point x="-35.0" y="-169.0" />
+              <point x="35.0" y="419.0" />
+              <point x="29.053571428571416" y="419.0" />
+              <point x="-71.625" y="125.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="139.0" y="533.125" />
+          <SelectedNodes>
+            <node>org.Animation</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
@@ -311,10 +494,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>Animation:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -357,7 +542,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>animation1</last-edited>
+          <last-edited>Animation</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
