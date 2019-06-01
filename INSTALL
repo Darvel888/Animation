@@ -1,4 +1,4 @@
 Для сборки программы Animation необходимо установить Java SE Development Kit 8u202 который доступен по ссылке https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 Для сборки запустить скрипт build.bat
 Для запуска программы Animation необходимо установить Java SE Runtime Environment 8u202 который доступен по ссылке https://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html
-Для запуска использовать скрипт animation1.bat находящийся в директории animation1/bin
+Для запуска использовать скрипт animation.bat находящийся в директории animation/bin
